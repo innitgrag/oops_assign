@@ -1,4 +1,4 @@
-package com.example.oopsmajorassignment.controller;// UserController.java
+package com.example.oopsmajorassignment.controller;
 import com.example.oopsmajorassignment.entity.Comment;
 import com.example.oopsmajorassignment.entity.Post;
 import com.example.oopsmajorassignment.entity.User;
@@ -117,11 +117,6 @@ public class UserController {
     }
 
 
-
-
-
-
-    // Inner DTO classes for response structure
     static class UserDTO {
         private Long userID;
         private String name;
