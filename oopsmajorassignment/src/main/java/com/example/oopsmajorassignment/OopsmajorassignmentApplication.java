@@ -9,12 +9,9 @@ public class OopsmajorassignmentApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(OopsmajorassignmentApplication.class, args);
-
-
-		// Create a RestTemplate instance
 		RestTemplate restTemplate = new RestTemplate();
 
-		// Define the endpoint URL
+		
 		String url = "http://localhost:8080/";
 
 		// Make the GET request to retrieve all posts
