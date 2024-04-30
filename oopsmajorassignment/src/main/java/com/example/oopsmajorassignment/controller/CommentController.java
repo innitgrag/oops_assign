@@ -23,7 +23,6 @@ public class CommentController {
     private com.example.oopsmajorassignment.repository.UserRepository userRepository;
 
     // Create a new comment
-    // CommentController.java
 
     @PostMapping("/comment")
     public ResponseEntity<String> createComment(@RequestBody Map<String, Object> commentData) {
@@ -52,11 +51,6 @@ public class CommentController {
 
         return ResponseEntity.ok("Comment created successfully");
     }
-
-
-
-
-
 
 
     // Retrieve an existing comment
