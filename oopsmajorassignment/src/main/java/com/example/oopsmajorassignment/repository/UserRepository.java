@@ -1,6 +1,5 @@
 package com.example.oopsmajorassignment.repository;
 
-// UserRepository.java
 import com.example.oopsmajorassignment.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
