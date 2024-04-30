@@ -1,1 +1,1 @@
-# oops_assign
+Object oriented programming Major assignment Social media platform
